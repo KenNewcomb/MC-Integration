@@ -11,7 +11,7 @@ Usage
 Example
 -------
 
-Let's approximate the integral of x<sup>3</sup>-4 from 0 to 2 using 500 points. (the exact value is -4). 
+Let's approximate the integral of x<sup>3</sup>-4 from 0 to 2 using 500 points (the exact value is -4). 
 
 	python3 mc-integration.py x**3-4 0 2 500
 
