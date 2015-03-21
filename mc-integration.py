@@ -16,7 +16,7 @@ def integrator(eq, a, b, num):
 
 	# Calculate the average value of the function.
 	average = float((b-a)*sum/num)
-	print("Integral approxmiation: " + str(average))
+	print("Integral approximation: " + str(average))
 
 # Check for appropriate number of input arguments.
 if len(sys.argv) is not 5:
