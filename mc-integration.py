@@ -20,7 +20,7 @@ def integrator(eq, a, b, num):
 
 # Check for appropriate number of input arguments.
 if len(sys.argv) is not 5:
-	print("Usage: python3 mc-integration.py f(x) lower_bound upper_down number_of_points")
+	print("Usage: python3 mc-integration.py f(x) lower_bound upper_bound number_of_points")
 	sys.exit(0)
 
 # Input arguments
